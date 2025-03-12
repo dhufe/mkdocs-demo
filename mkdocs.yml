@@ -1,7 +1,10 @@
 site_name: MkDocs Demo
 site_url: https://dhufe.github.io/mkdocs-demo/
+repo_url: https://github.com/dhufe/mkdocs-demo
 theme:
   name: material
+  logo: 'images/logo.png'
+  favicon: 'images/logo.png'
   features:
 #    - navigation.tabs
 #    - navigation.sections
@@ -46,3 +49,6 @@ markdown_extensions:
   - admonition
   - footnotes
   - attr_list
+
+nav:
+  - Home: index.md
