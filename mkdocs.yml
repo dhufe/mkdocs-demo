@@ -25,17 +25,6 @@ theme:
         name: "Wechsel in den Lightmode"
 plugins:
   - search
-  - exporter:
-      formats:
-        pdf:
-          explicit: true
-          enabled: true
-      buttons:
-        - title: Download as PDF
-          icon: material-file-download-outline
-          enabled: true
-
-
 
 markdown_extensions:
   - pymdownx.highlight:
