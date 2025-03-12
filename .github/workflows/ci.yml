@@ -55,4 +55,4 @@ jobs:
           path: 'site/' # MkDocs builds to site/ by default
       - name: Deploy to GitHub Pages
         id: deployment # This is required for environment
-        uses: actions/deploy-pages@v2
+        uses: actions/deploy-pages@v4
